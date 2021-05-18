@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>РЎС‚СЂР°РЅРёС†Р° eCat / eCat's page</title>
+  <link rel="stylesheet" type="text/css" href="main.css"></head>
+<body><table align=center width=760 cellspacing=0 cellpadding=10 border=0><tr><td align=center class=mc>
+<h2>РЎС‚СЂР°РЅРёС†Р° eCat / eCat's page</h2>
+<img src="eye.gif">
+
+<h3>РџСЂРѕРіСЂР°РјРјС‹ (+ РёСЃС…РѕРґРЅС‹Р№ РєРѕРґ) / Programs (+ source code)</h3>
+
+<h4 class=not>News</h4>
+<p class=c>Color Input Language Indicator</p>
+<p class=c>SineGen is now <a href="sinegen/">Multi-purpose tone modulator</a></p>
+<hr>
+
+<a href="Spectrum.zip"><p><img src="spectrum.gif"></p><p><img src="spectrum2.gif"></p></a>
+<p>Logarithmic HQ resolution audio spectrum monitor</p>
+<p>Minimum 1.7 GHz CPU recommended</p>
+<hr>
+
+<a href="SpecChar.zip"><p><img src="SpecChar.gif"></p>
+<p>РњРµРЅСЋ РІСЃС‚Р°РІРєРё СЃРїРµС†СЃРёРјРІРѕР»РѕРІ / Special characters menu</p></a>
+<a href="OSNP.zip"><p><img src="OSNP.gif"></p>
+<p>On-Screen NumPad</p></a>
+<hr>
+
+<p><a href="CILI.zip">Р¦РІРµС‚РѕРІРѕР№ РёРЅРґРёРєР°С‚РѕСЂ СЏР·С‹РєР° РІРІРѕРґР° / Color Input Language Indicator</a></p>
+<a href="KbLangLED.zip"><p><img src="KbLangLED.gif"></p>
+<p>Р�РЅРґРёРєР°С†РёСЏ СЂР°СЃРєР»Р°РґРєРё Р»Р°РјРїРѕР№ Scroll Lock / Keyb. LED indicates layout</p></a>
+<p><a href="InputColor.zip"><img src="InputColor.gif"></p>
+<p><a href="KbHDDLED.zip">HDD LED --> ScrollLock</a></p>
+<hr>
+
+<a href="JPEGInfo.zip"><p><img src="JPEGInfo.gif"></p>
+<p>РџСЂРѕСЃРјРѕС‚СЂ Рё РѕС‡РёСЃС‚РєР° РёРЅС„РѕСЂРјР°С†РёРё РІ JPEG-С„Р°Р№Р»Рµ / JPEG information viewer/cleaner</p></a>
+<hr>
+
+<a href="MonTests.zip"><p><img src="gradient.gif"></p>
+<p>РњРѕРЅРёС‚РѕСЂРЅС‹Рµ С‚РµСЃС‚С‹: Р“СЂР°РґРёРµРЅС‚ Рё Р·Р°Р»РёРІРєР° / Monitor tests: Gradient & Fill</p></a>
+<hr>
+
+<a href="RAStats.zip"><p><img src="RAStats.gif"></p>
+<p>РЎС‚Р°С‚РёСЃС‚РёРєР° СЃРµСЃСЃРёР№ СѓРґР°Р»С‘РЅРЅРѕРіРѕ РґРѕСЃС‚СѓРїР° / Remote Access sessions</p></a>
+<hr>
+
+<p><a href="IDFile/">РџСЂРѕРІРµСЂРєР° С„Р°Р№Р»РѕРІ (РёСЃРї. С…СЌС€-С‚Р°Р±Р»РёС†Сѓ) / File verification (using hash table)</a></p>
+<p><a href="MD5File.zip">Р’С‹С‡РёСЃР»РµРЅРёРµ MD5 С„Р°Р№Р»Р° / File MD5 calculation</a></p>
+<p><a href="SHA256.html">SHA-256</a> & <a href="md5.html">MD5</a> Delphi lib</p>
+<hr>
+
+<a href="RandGen.zip"><p><img src="RandGen.gif"></p>
+<p>Р“РµРЅРµСЂР°С‚РѕСЂ СЃР»СѓС‡Р°Р№РЅРѕР№ СЃС‚СЂРѕРєРё / Random string generator</p></a>
+<hr>
+
+<a href="TextStat.zip"><p><img src="TextStat.gif"></p>
+<p>РџСЂРѕСЃС‚Р°СЏ СЃС‚Р°С‚РёСЃС‚РёРєР° С‚РµРєСЃС‚Р° / Simple text stats</p></a>
+<hr>
+
+<p><a href="sinegen/">РЈРЅРёРІРµСЂСЃР°Р»СЊРЅС‹Р№ РјРѕРґСѓР»СЏС‚РѕСЂ С‚РѕРЅР° / Multi-purpose tone modulator</a></p>
+<hr>
+
+<p><a href="SystrayPatch.zip">Р�СЃРїСЂР°РІР»РµРЅРёРµ РїСЂРѕРїР°РґР°СЋС‰РёС… РІ СЃРёСЃ-С‚СЂРµРµ Р·РЅР°С‡РєРѕРІ РїСЂРё Р·Р°РіСЂСѓР·РєРµ СЃРёСЃС‚РµРјС‹ / Patch for missing systray icons at system startup</a></p>
+<hr>
+
+<p><a href="PasToHTML.zip">Р“РµРЅРµСЂР°С‚РѕСЂ HTML РґР»СЏ РёСЃС…РѕРґРЅРёРєРѕРІ РЅР° РџР°СЃРєР°Р»Рµ / HTML for Pascal source code</a></p>
+<p><a href="SNAIcon.zip">РљРѕРјРїРѕРЅРµРЅС‚ РґРµР»СЊС„Рё: Р·РЅР°С‡РѕРє РІ СЃРёСЃС‚РµРјРЅРѕР№ РѕР±Р»Р°СЃС‚Рё / Delphi component: icon in the system area</a></p>
+<a href="BackArt.zip"><p><img src="tbackart.gif"></p>
+<p>РџСЂРёРјРѕС‡РєР° РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РєСЂРµР°С‚РёРІРЅРѕРіРѕ С„РѕРЅР° / Artistic BG creation algo</p></a>
+<p><a href="DropFiles.html">РљР°Рє РїСЂРёРЅРёРјР°С‚СЊ РґСЂР°Рі-РґСЂРѕРї / Drag&drop handling</a></p>
+<hr>
+
+<h3>Р—Р°РјРµС‚РєРё / Notes</h3>
+<p><a href="notes/upgrade/">РџРѕРєСѓРїРєР°/РјРѕРґРµСЂРЅРёР·Р°С†РёСЏ РєРѕРјРїСЊСЋС‚РµСЂР°</a></p>
+
+<h3>РЎСЃС‹Р»РєРё / Links</h3>
+<p><a href="http://download.microsoft.com/download/whistler/Install/2/WXP/EN-US/PowerCalcPowertoySetup.exe">PowerToy Calc</a></p>
+<p><a href="http://www.inmatrix.com/">Zoom Player</a></p>
+<p><a href="http://www.geocities.jp/aoyoume/aotuv/">Ogg Vorbis Encoder</a> - Р·Р°РјРµРЅР° mp3 / mp3 replacement</p>
+<p><a href="http://www.xnview.com/">XnView</a> - СЂР°СЃС€РёСЂРµРЅРёРµ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РёР·РѕР±СЂР°Р¶РµРЅРёСЏРјРё / image working extension</p>
+<p><a href="http://testmem.tz.ru/snm.htm">S&M</a> - СЃС‚СЂРµСЃСЃ-С‚РµСЃС‚ / stress test</p>
+
+<h3>РћР±РѕРё / Wallpaper</h3>
+<p><a href="depth.bmp">Blue depth</a></p>
+<p><a href="neoranga01_1600.jpg">NeoRanga (1600x1200)</a></p>
+<p><a href="There is no cat.jpg">There is no cat</a></p>
+
+<h3>Music</h3>
+<p><a href="music/The%20Great%20Leap%20Forward%20-%20Sparta.mp3">The Great Leap Forward - Sparta</a></p>
+<p><a href="music/04-phoenix-gem.mp3">Asura - Phoenix</a></p>
+
+<h3>Р¤РѕС‚Рѕ Рё РґСЂ. РёР·РѕР±СЂР°Р¶РµРЅРёСЏ / Photo & misc. images</h3>
+<a href="http://foto.ixbt.com/?id=user:312399">Р—РґРµСЃСЊ... / Here...</a>
+
+<h3>Р—Р°РїРѕРјРЅРё / Remember</h3>
+<p class=not>Р•СЃР»Рё Р·Р°РґР°С‡Р° РЅРµ СЂРµС€Р°РµС‚СЃСЏ, РѕРЅР° СЃРѕРґРµСЂР¶РёС‚ Р»РёС€РЅРёРµ СѓСЃР»РѕРІРёСЏ.<br>
+Р’РµСЂРЅРѕ СЃРѕСЃС‚Р°РІР»РµРЅРЅРѕРµ СѓСЃР»РѕРІРёРµ СЏРІР»СЏРµС‚СЃСЏ РіРѕС‚РѕРІС‹Рј СЂРµС€РµРЅРёРµРј.</p>
+
+<hr>
+<p>Donate - Z617147837889, E111823600320</p> 
+
+</td></tr><tr><td align=center class=cpy>Copyright &copy; '06-'08 eCat</td></tr></table>
+<center><p>
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='http://counter.yadro.ru/hit?t29.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: РїРѕРєР°Р·Р°РЅРѕ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕСЃРјРѕС‚СЂРѕРІ Рё РїРѕСЃРµС‚РёС‚РµР»РµР№' "+
+"border=0 width=88 height=120><\/a>")//--></script><!--/LiveInternet-->
+</p></center>
+<hr></body>
+</html>
+
