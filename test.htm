@@ -1,0 +1,77 @@
+<style type="text/css"> 
+ .dr {font-family: Verdana; font-size: 9pt; padding: 4px}
+ .z1 {width: 1; height: 1}
+ .z2 {width: 3; height: 3}
+ .zc0 {background-color: #fafafa}
+ .zc1 {background-color: #f5fafc}
+ .zc2 {background-color: #e7e7e7}
+ .zc3 {background-color: #e5eaec}
+</style>
+
+<script language=JavaScript>
+var columns = 'folder icon topic author posts lastpost'.split(" ")
+var s=''
+var ctr=0
+function f_tr(forum_number, folder_col, icon, url, ext, pages, subject, posts, life_time, author, create_date_time, last_author, last_date_time){
+function tdz(i){ return '<td class=zc'+(ctr%2*2+i%2)+'>' }
+s+='<tr class=z2><td></td></tr><tr class=z1>'
+for (i=0; i<columns.length; i++) s+='<td class=z1></td>'+tdz(i)+'</td><td class=z1></td><td class=z2 rowspan=3></td>'
+s+='</tr><tr>'
+for (i=0; i<columns.length; i++) {
+s+=tdz(i)+'</td>'+tdz(i)+'<div class=dr'
+switch(columns[i]){
+  case 'author':
+  case 'posts':
+    s+=' align=center'
+  default: 
+    s+='>'
+}
+switch(columns[i]){
+  case 'folder':
+    s+='<img src=http://forum.ixbt.com/fl-'+folder_col+'.gif>'
+    break
+  case 'icon':
+    if(icon) s+='<img src=http://forum.ixbt.com/icons/icon'+icon+'.gif>'
+    break
+  case 'topic':
+    s+=subject
+    break
+  case 'author':
+    s+='<b>'+author+'</b>'
+    break
+  case 'posts':
+    s+=posts
+    break
+  case 'lastpost':
+    s+='time'
+    break
+}
+s+='</div></td>'+tdz(i)+'</td>'
+}
+s+='</tr><tr class=z1>'
+for (i=0; i<columns.length; i++) s+='<td></td>'+tdz(i)+'</td><td></td>'
+s+='</tr>'
+ctr++
+}
+</script>
+
+<div id=cntn>here topic list</div>
+<script language=JavaScript>
+f_tr(20,'s1',0,'topic.cgi?id=20:19591',1,24,'Обсуждение грядущего FAQ по выбору ЦФК',632,'','VORON_SPb',1152743220,'Volkon',1234534080)
+f_tr(20,'s1',4,'topic.cgi?id=20:16706',1,36,'Общий FAQ раздела «Цифровое изображение»: обсуждение и дополнение',1022,'','P.M.',1125110400,'Mus1',1234443660)
+f_tr(20,'n1',0,'topic.cgi?id=20:26106',1,1,'Недорогая цифромыльница (до 200$) с приличным видеорежимом.',28,'','daniko',1234379880,'Лох Чилийский',1234561080)
+f_tr(20,'n1',0,'topic.cgi?id=20:25502',1,17,'Nikon D700 Том II.',538,'','jodvova',1213790040,'LeonidLZ',1234561020)
+f_tr(20,'n1',0,'topic.cgi?id=20:21318',1,54,'Оптика под Nikon D40, D40x и  D60',1749,'','Yannn',1171299540,'bigMOTOR',1234560900)
+f_tr(20,'n1',0,'topic.cgi?id=20:26079',1,5,'Fujifilm FinePix F200EXR Super CCD EXR - революция?',148,'','xkimx',1233829320,'Марк Лучин',1234560660)
+f_tr(20,'p1',2,'topic.cgi?id=20:23689',1,131,'Ветка для тех, кто хочет быстро и без усилий выбрать цифрокомпакт',4109,31,'mod_ion',1197142740,'Лох Чилийский',1234560660)
+f_tr(20,'p1',0,'topic.cgi?id=20:25968',1,124,'[Флейм] SONY Alpha System vs. Nikon vs. Canon vs. Pentax vs. Olympus vs. Fuji. Vol. 29.  ',4175,'','Carma',1187522640,'ornic',1234560600)
+f_tr(20,'p1',0,'topic.cgi?id=20:25171',1,150,'[Флейм!!!] Что лучше хорошая мыльница или плохая зеркалка? Том V.',4432,'','jovdet',1185883620,'WeatherStorm',1234560540)
+f_tr(20,'n1',0,'topic.cgi?id=20:26113',1,1,'Помогите определиться с выбором: фотоаппарат или видеокамера',18,'','AlexSuv',1234485300,'Novice',1234560480)
+f_tr(20,'n1',6,'topic.cgi?id=20:25032',1,74,'Оптика для Pentax и других с байонетом К (и про вспышки тут же) Том IV.',2345,'','Recycler',1095333780,'Санчо-',1234560420)
+f_tr(20,'n1',0,'topic.cgi?id=20:24479',1,25,'FAQ: Adobe Photoshop Lightroom',795,'','Dorian Hawkmoon',1207525440,'Angelok69',1234560180)
+f_tr(20,'n1',14,'topic.cgi?id=20:20467',1,13,'FAQ по ЦФК Canon серии "A" (1:A60-A95; 2:A510-A540; 3:A610-A700) Том II.',400,'','-Dark-',1046381760,'Siller',1234560060)
+f_tr(20,'n1',0,'topic.cgi?id=20:25524',1,19,'Специфика цветопередачи различных производителей.  Все ли дело в волшебном ползунке WB?',476,'','Max226',1224115380,'wrest',1234559820)
+
+document.getElementById('cntn').innerHTML='<table border=0 cellspacing=0 cellpadding=0 width=80%>'+s+'</table>'
+</script>
+
